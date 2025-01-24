@@ -1,69 +1,40 @@
-<nav class="flex font-bold justify-between max-lg:flex-col-reverse max-lg:items-center">
-    <!--left side-->
-    <ul class="flex items-center gap-6 max-lg:w-full max-lg:justify-between max-lg:px-3">
-        <li><img src="images/company/logo_white.png" alt="aa" class="w-20 h-20 object-contain"></li>
-        <li class="w-[200px] h-full flex justify-center items-center scale-100">
-            <form class="max-w-md mx-auto">
-                <label for="default-search"
-                    class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
-                <div class="relative">
-
-                    <input type="search" id="default-search"
-                        class="block w-full px-4 h-8 text-sm text-white outline-none border border-blue-400 rounded-full bg-gray-800 focus:ring-blue-500 focus:border-blue-500"
-                        placeholder="Search" required />
-                    <button type="submit"
-                        class="text-white absolute end-0 bottom-0 bg-blue-400 hover:bg-blue-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-e-full text-sm px-4 py-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000"
-                            class="bi bi-search" viewBox="0 0 16 16">
-                            <path
-                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
-                        </svg>
-                    </button>
-                </div>
-            </form>
-
-        </li>
-        <li class=" max-lg:hidden"><a href="" class="text-blue-400">Contact</a></li>
-        <li class="hidden max-lg:flex">
-            <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
-                class="flex flex-col items-center text-blue-400 w-20 h-20 justify-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+<nav class="md:fixed w-full bg-black text-white py-4">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+        <a href="#" class="flex items-center">
+            <img src="images/company/logo_white.png" alt="udarata" class="h-15 mr-4">
+        </a>
+        <div class="flex items-center space-x-6 max-md:hidden">
+            <a href="#" class="hover:text-gray-400">Products</a>
+            <a href="#" class="hover:text-gray-400">Accessories</a>
+            <a href="#" class="hover:text-gray-400">Laptops</a>
+            <a href="#" class="hover:text-gray-400">Mobiles</a>
+            <a href="#" class="hover:text-gray-400">Pre Owned</a>
+            <a href="#" class="hover:text-gray-400">Build My PC</a>
+        </div>
+        <div class="flex items-center space-x-4">
+            <a href="#" class="hover:text-gray-400">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+            </a>
+            <a href="#" class="hover:text-gray-400">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+            </a>
+            <a href="#" class="hover:text-gray-400" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor"
                     class="bi bi-list scale-150" viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
                         d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
                 </svg>
-                Menu
-            </button>
-        </li>
-    </ul>
-    <!--right side-->
-    <ul class="flex items-center gap-6 max-lg:w-full max-lg:justify-center max-lg:px-3 max-lg:bg-gray-800">
-        <li class="max-lg:hidden">
-            <a class="text-white flex items-center gap-1" href="tel:778899">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone"
-                    viewBox="0 0 16 16">
-                    <path
-                        d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
-                    <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
-                </svg>
-                0707466666
             </a>
-        </li>
-        <li class="flex gap-3 h-full justify-center items-center lg:w-[300px] lg:bg-gray-800 max-lg:py-3">
-            <span class="w-12 h-12 flex justify-center items-center rounded-full bg-blue-400">
-                <img src="images/icons/cart.svg" alt="">
-            </span>
-            <span class="flex flex-col gap-1">
-                <p class="text-lg text-blue-400">0 LKR</p>
-                <p class="text-xs text-blue-400">Build Your PC</p>
-            </span>
-        </li>
-    </ul>
-    <!--phone num (only on max-lg)-->
-    <span class="hidden max-lg:flex py-3 w-full flex justify-center bg-black"><a
-            class="text-white flex items-center gap-1 text-xl" href="tel:778899">
-            Call Us - 0707466666
-        </a></span>
+        </div>
+    </div>
 </nav>
 <!--offcanvas for mobile-->
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel"
@@ -72,7 +43,7 @@
         <div class="bg-gray-900 text-white">
             <h2 class="text-2xl font-bold mb-6 text-center">Categories</h2>
             <div class="grid grid-cols-1 gap-6">
-            <div class="bg-gray-500 rounded-lg p-4 flex items-center justify-between">
+                <div class="bg-gray-500 rounded-lg p-4 flex items-center justify-between">
                     <img src="images/category/1697178958_laptops_laptop.png" alt="Laptop" class="w-10 h-10">
                     <h3 class="text-lg font-bold">LAPTOPS</h3>
                 </div>
