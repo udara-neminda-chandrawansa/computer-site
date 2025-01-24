@@ -1,4 +1,4 @@
-<nav class="flex justify-between bg-gray-500 max-lg:flex-col-reverse max-lg:items-center">
+<nav class="flex font-bold justify-between max-lg:flex-col-reverse max-lg:items-center">
     <!--left side-->
     <ul class="flex items-center gap-6 max-lg:w-full max-lg:justify-between max-lg:px-3">
         <li><img src="images/company/logo_white.png" alt="aa" class="w-20 h-20 object-contain"></li>
@@ -9,11 +9,11 @@
                 <div class="relative">
 
                     <input type="search" id="default-search"
-                        class="block w-full p-4 text-sm text-gray-900 border border-gray-300 rounded-full bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        class="block w-full px-4 h-8 text-sm text-white outline-none border border-blue-400 rounded-full bg-gray-800 focus:ring-blue-500 focus:border-blue-500"
                         placeholder="Search" required />
                     <button type="submit"
-                        class="text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="text-white absolute end-0 bottom-0 bg-blue-400 hover:bg-blue-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-e-full text-sm px-4 py-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000000"
                             class="bi bi-search" viewBox="0 0 16 16">
                             <path
                                 d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
@@ -25,7 +25,8 @@
         </li>
         <li class=" max-lg:hidden"><a href="" class="text-blue-400">Contact</a></li>
         <li class="hidden max-lg:flex">
-            <button class="flex flex-col items-center text-blue-400 w-20 h-20 justify-center">
+            <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                class="flex flex-col items-center text-blue-400 w-20 h-20 justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="bi bi-list scale-150" viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
@@ -64,3 +65,46 @@
             Call Us - 0707466666
         </a></span>
 </nav>
+<!--offcanvas for mobile-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel"
+    style="background:white">
+    <div class="offcanvas-body bg-gray-900">
+        <div class="bg-gray-900 text-white">
+            <h2 class="text-2xl font-bold mb-6 text-center">Categories</h2>
+            <div class="grid grid-cols-1 gap-6">
+            <div class="bg-gray-500 rounded-lg p-4 flex items-center justify-between">
+                    <img src="images/category/1697178958_laptops_laptop.png" alt="Laptop" class="w-10 h-10">
+                    <h3 class="text-lg font-bold">LAPTOPS</h3>
+                </div>
+                <div class="bg-gray-500 rounded-lg p-4 flex items-center justify-between">
+                    <img src="images/category/1697178958_laptops_laptop.png" alt="Laptop" class="w-10 h-10">
+                    <h3 class="text-lg font-bold">LAPTOPS</h3>
+                </div>
+                <div class="bg-gray-500 rounded-lg p-4 flex items-center justify-between">
+                    <img src="images/category/1697178958_laptops_laptop.png" alt="Laptop" class="w-10 h-10">
+                    <h3 class="text-lg font-bold">LAPTOPS</h3>
+                </div>
+                <div class="bg-gray-500 rounded-lg p-4 flex items-center justify-between">
+                    <img src="images/category/1697178958_laptops_laptop.png" alt="Laptop" class="w-10 h-10">
+                    <h3 class="text-lg font-bold">LAPTOPS</h3>
+                </div>
+                <div class="bg-gray-500 rounded-lg p-4 flex items-center justify-between">
+                    <img src="images/category/1697178958_laptops_laptop.png" alt="Laptop" class="w-10 h-10">
+                    <h3 class="text-lg font-bold">LAPTOPS</h3>
+                </div>
+                <div class="bg-gray-500 rounded-lg p-4 flex items-center justify-between">
+                    <img src="images/category/1697178958_laptops_laptop.png" alt="Laptop" class="w-10 h-10">
+                    <h3 class="text-lg font-bold">LAPTOPS</h3>
+                </div>
+                <div class="bg-gray-500 rounded-lg p-4 flex items-center justify-between">
+                    <img src="images/category/1697178958_laptops_laptop.png" alt="Laptop" class="w-10 h-10">
+                    <h3 class="text-lg font-bold">LAPTOPS</h3>
+                </div>
+                <div class="bg-gray-500 rounded-lg p-4 flex items-center justify-between">
+                    <img src="images/category/1697178958_laptops_laptop.png" alt="Laptop" class="w-10 h-10">
+                    <h3 class="text-lg font-bold">LAPTOPS</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
