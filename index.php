@@ -11,7 +11,7 @@
     <!-- AOS Library (for animations) -->
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <title>Computer Site</title>
+    <title>Udarata Computers | Best Computers for you</title>
 </head>
 
 <body class="relative flex flex-col bg-gray-900 overflow-x-hidden">
@@ -73,28 +73,28 @@
                             <img src="images/cards/acer_lap.webp" alt="Laptop"
                                 class="w-full h-48 object-contain bg-white rounded-lg mb-4">
                             <h3 class="text-lg font-bold">Laptops</h3>
-                            <p class="">Acer Predator Helios NEO-16 i9-12900HX 16GB DDR5 1TB NVMe</p>
+                            <p class="text-justify">Acer Predator Helios NEO-16 i9-12900HX 16GB DDR5 1TB NVMe</p>
                             <p class="font-bold">Rs. 465,000.00</p>
                         </div>
                         <div class="bg-blue-400 rounded-lg p-4 transition-all delay-100" data-aos="fade-up">
                             <img src="images/cards/apple_mac.webp" alt="Mac Mini"
                                 class="w-full h-48 object-contain bg-white rounded-lg mb-4">
                             <h3 class="text-lg font-bold">Apple</h3>
-                            <p class="">Apple Mac Mini M4 16GB | 256GB SSD M1/M1P3</p>
+                            <p class="text-justify">Apple Mac Mini M4 16GB | 256GB SSD M1/M1P3</p>
                             <p class="font-bold">Rs. 238,000.00</p>
                         </div>
                         <div class="bg-blue-400 rounded-lg p-4 transition-all delay-200" data-aos="fade-up">
                             <img src="images/cards/iphone.jpg" alt="iPhone 13"
                                 class="w-full h-48 object-contain bg-white rounded-lg mb-4">
                             <h3 class="text-lg font-bold">Mobiles</h3>
-                            <p class="">Apple iPhone 13 Pro Max 256GB Desert Titanium (A/A)</p>
+                            <p class="text-justify">Apple iPhone 13 Pro Max 256GB Desert Titanium (A/A)</p>
                             <p class="font-bold">Rs. 399,000.00</p>
                         </div>
                         <div class="bg-blue-400 rounded-lg p-4 transition-all delay-300" data-aos="fade-up">
                             <img src="images/cards/epson_printer.jpg" alt="Liquid Freezer"
                                 class="w-full h-48 object-contain bg-white rounded-lg mb-4">
                             <h3 class="text-lg font-bold">Printers</h3>
-                            <p class="">Printer Epson L3250 Ink Tank wireless</p>
+                            <p class="text-justify">Printer Epson L3250 Ink Tank wireless</p>
                             <p class="font-bold">Rs. 69,000.00</p>
                         </div>
                     </div>
@@ -110,7 +110,7 @@
                     <div class="flex flex-col justify-between" data-aos="fade-up">
                         <div>
                             <h3 class="text-xl font-bold mb-4">MONITORS</h3>
-                            <p>Explore high quality gaming, 4K and professional monitors with stunning clarity, smooth
+                            <p class="text-justify">Explore high quality gaming, 4K and professional monitors with stunning clarity, smooth
                                 performance and vibrant colors.</p>
                             <a href="#" class="text-blue-500 hover:text-blue-400">Explore more</a>
                         </div>
@@ -120,7 +120,7 @@
                     <div class="flex flex-col justify-between delay-100" data-aos="fade-up">
                         <div>
                             <h3 class="text-xl font-bold mb-4">COOLERS</h3>
-                            <p>Browse our coolers for superior airflow, efficient cooling and enhanced performance for
+                            <p class="text-justify">Browse our coolers for superior airflow, efficient cooling and enhanced performance for
                                 your
                                 PC.</p>
                             <a href="#" class="text-blue-500 hover:text-blue-400">Explore more</a>
@@ -131,7 +131,7 @@
                     <div class="flex flex-col justify-between delay-200" data-aos="fade-up">
                         <div>
                             <h3 class="text-xl font-bold mb-4">LAPTOPS</h3>
-                            <p>Shop high performance gaming, business and creative laptops with advanced specs and
+                            <p class="text-justify">Shop high performance gaming, business and creative laptops with advanced specs and
                                 reliable
                                 power.</p>
                             <a href="#" class="text-blue-500 hover:text-blue-400">Explore more</a>
@@ -166,7 +166,7 @@
                                 <h4 class="text-lg font-bold">Custom PC Builds</h4>
                                 <div>
 
-                                    <p class="text-sm text-justifyudarata">We offer custom PC builds tailored to your
+                                    <p class="text-sm text-justify">We offer custom PC builds tailored to your
                                         needs, whether you’re a gamer, designer, or just need a reliable workstation.
                                         Choose your components and we’ll handle the rest!</p>
                                 </div>
@@ -180,7 +180,7 @@
                             <div class="flex flex-col gap-3">
                                 <h4 class="text-lg font-bold">Expert Support</h4>
                                 <div>
-                                    <p class="text-sm text-justifyudarata">Our team of experts is here to help you every
+                                    <p class="text-sm text-justify">Our team of experts is here to help you every
                                         step of the way, from choosing the right parts to troubleshooting and support
                                         after your purchase.
 
@@ -196,7 +196,7 @@
                             <div class="flex flex-col gap-3">
                                 <h4 class="text-lg font-bold">High-Quality Components</h4>
                                 <div>
-                                    <p class="text-sm text-justifyudarata">We stock the latest and greatest in computer
+                                    <p class="text-sm text-justify">We stock the latest and greatest in computer
                                         hardware, from CPUs and GPUs to SSDs and motherboards, ensuring your build has
                                         the best components available.
 
@@ -212,7 +212,7 @@
                             <div class="flex flex-col gap-3">
                                 <h4 class="text-lg font-bold">Warranty Support</h4>
                                 <div>
-                                    <p class="text-sm text-justifyudarata">Experience Sri Lanka’s No.1 warranty support
+                                    <p class="text-sm text-justify">Experience Sri Lanka’s No.1 warranty support
                                         with our user-friendly ticket system, simply submit your warranty claim, receive
                                         an email confirmation, follow the status of your claim in real time for a
                                         hassle-free experience.
@@ -237,7 +237,7 @@
                     <div class="flex items-center mb-2">
                         <h3 class="font-bold">Praneeth Randunu</h3>
                     </div>
-                    <p class="">I recently purchased an IMac M3 worth 750,000 LKR from Udarata Computers,
+                    <p class="text-justify">I recently purchased an IMac M3 worth 750,000 LKR from Udarata Computers,
                         and
                         it was hand-down the best experience I've ever had. From the moment I walked in, their customer
                         service was exceptional.</p>
@@ -278,7 +278,7 @@
                     <div class="flex items-center mb-2">
                         <h3 class="font-bold">Ariyadasa Kalindu</h3>
                     </div>
-                    <p class="">I'm writing to express my extreme satisfaction with Udarata Computers! From
+                    <p class="text-justify">I'm writing to express my extreme satisfaction with Udarata Computers! From
                         the moment I walked in, I was impressed by the knowledgeable service. The staff was incredibly
                         knowledgeable, patient, and helped me find the perfect solution for my needs.</p>
                     <div class="flex items-center mt-2">
@@ -318,7 +318,7 @@
                     <div class="flex items-center mb-2">
                         <h3 class="font-bold">Ariyadasa Kalindu</h3>
                     </div>
-                    <p class="">I'm writing to express my extreme satisfaction with Udarata Computers! From
+                    <p class="text-justify">I'm writing to express my extreme satisfaction with Udarata Computers! From
                         the moment I walked in, I was impressed by the knowledgeable service. The staff was incredibly
                         knowledgeable, patient, and helped me find the perfect solution for my needs.</p>
                     <div class="flex items-center mt-2">
@@ -358,7 +358,7 @@
                     <div class="flex items-center mb-2">
                         <h3 class="font-bold">Ariyadasa Kalindu</h3>
                     </div>
-                    <p class="">I'm writing to express my extreme satisfaction with Udarata Computers! From
+                    <p class="text-justify">I'm writing to express my extreme satisfaction with Udarata Computers! From
                         the moment I walked in, I was impressed by the knowledgeable service. The staff was incredibly
                         knowledgeable, patient, and helped me find the perfect solution for my needs.</p>
                     <div class="flex items-center mt-2">
