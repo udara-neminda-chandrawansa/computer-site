@@ -153,12 +153,12 @@
 
                 <!-- Todo list -->
                 <div class="lg:col-span-1 text-white">
-                    <h2 class="text-5xl marcellus" data-aos="fade-left">
+                    <h2 class="text-5xl marcellus" data-aos="fade-right">
                         What we specialize in...
                     </h2>
                     <div class=" [column-fill:_balance] columns-1 sm:columns-2 gap-12 py-12">
 
-                        <div class="flex items-start mb-12 space-x-4" data-aos="fade-right">
+                        <div class="flex items-start mb-12 space-x-4" data-aos="fade-up">
                             <div>
                                 <span class="text-2xl text-yellow-500">💻</span>
                             </div>
@@ -173,7 +173,7 @@
                             </div>
                         </div>
 
-                        <div class="flex items-start mb-12 space-x-4" data-aos="fade-left">
+                        <div class="flex items-start mb-12 space-x-4" data-aos="fade-up">
                             <div>
                                 <span class="text-2xl text-yellow-500">🧑‍💻</span>
                             </div>
@@ -189,7 +189,7 @@
                             </div>
                         </div>
 
-                        <div class="flex items-start mb-12 space-x-4" data-aos="fade-right">
+                        <div class="flex items-start mb-12 space-x-4" data-aos="fade-up">
                             <div>
                                 <span class="text-2xl text-yellow-500">⚙️</span>
                             </div>
@@ -205,7 +205,7 @@
                             </div>
                         </div>
 
-                        <div class="flex items-start space-x-4" data-aos="fade-left">
+                        <div class="flex items-start space-x-4" data-aos="fade-up">
                             <div>
                                 <span class="text-2xl text-yellow-500">📜</span>
                             </div>
@@ -229,8 +229,8 @@
         <!--feedback-->
         <div class="overflow-hidden container text-white">
             <div class="px-6 pb-8">
-                <h2 class="text-2xl font-bold mb-4" data-aos="fade-left">What our clients say about us</h2>
-                <p class="" data-aos="fade-left">Some inspirational feedback from our customers on social media</p>
+                <h2 class="text-2xl font-bold mb-4 w-fit" data-aos="fade-left">What our clients say about us</h2>
+                <p class="w-fit" data-aos="fade-left">Some inspirational feedback from our customers on social media</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-6">
                 <div data-aos="fade-up" class="bg-blue-400 p-6 rounded-lg">
